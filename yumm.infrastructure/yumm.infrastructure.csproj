@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Middleware\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\yumm.Core\yumm.Core.csproj" />
+    <ProjectReference Include="..\yumm.Data\yumm.Data.csproj" />
+  </ItemGroup>
+
+</Project>
